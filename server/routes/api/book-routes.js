@@ -1,12 +1,10 @@
-const router = require("express").Router();
-const {
-    getAllBooks,
-    saveBook,
-    deleteBook,
-} = require("../../controllers/book-controller");
+const router = require('express').Router();
+const { getAllBooks, saveBook, deleteBook } = require('../../controllers/book-controller');
 
-router.route("/").get(getAllBooks).post(SaveBook);
+// for GET and POST /api/books
+router.route('/').get(getAllBooks).post(saveBook);
 
-router.route("/:id").delete(deleteBook);
+// for DELETE /api/books/:id
+router.route('/:id').delete(deleteBook);
 
 module.exports = router;

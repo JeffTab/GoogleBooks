@@ -1,5 +1,5 @@
 {
-  "name": "GoogleBooks",
+  "name": "googlebooks-app",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -17,10 +17,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JeffTab/GoogleBooks/issues"
-  },
-  "homepage": "https://github.com/JeffTab/GoogleBooks#readme",
   "dependencies": {
     "if-env": "^1.0.4"
   },
